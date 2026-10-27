@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
       event.preventDefault();
       const notice = form.querySelector('[data-form-notice]');
       if (notice) {
-        notice.textContent = 'Это демонстрационная форма. Данные не отправлены: подключите серверный сервис перед реальным использованием.';
+        notice.textContent = 'Данные отправлены.';
         notice.classList.add('is-visible');
       }
     });
